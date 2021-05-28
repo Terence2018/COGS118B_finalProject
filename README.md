@@ -9,6 +9,7 @@ We aim to test the effectiveness of online and offline K-means algorithms by gro
 `runKMeans(K, array)`
 - `K`: Represents the number of cluster centers intitialized. In our case, comparing heigths and weights between genders, `K = 2`
 - `array`: Represents the dataset used to plot the data
+
 `runSequentialKMeans(weight, frequency, array)`
 - `weight`: Takes values greater than 0 and less than 1. Represents how much the cluster center should be moved towards the new point, calculated by taking fraction of its total distance from that cluster center.
 - `frequency`: Represents how often the algorithm displays the graph containing datapoints and cluster centers.
